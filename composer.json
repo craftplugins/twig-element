@@ -1,0 +1,20 @@
+{
+    "name": "joshuabaker/twig-element",
+    "description": "A Twig extension to manipulate HTML as object abstractions.",
+    "require": {
+        "anahkiasen/html-object": "dev-master",
+        "twig/twig": "1.*"
+    },
+    "license": "MPL-2.0",
+    "authors": [
+        {
+            "name": "Joshua Baker",
+            "email": "josh@joshuabaker.com"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "Twig": "src/"
+        }
+    }
+}
