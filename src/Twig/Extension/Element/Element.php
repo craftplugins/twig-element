@@ -41,7 +41,12 @@ class Element extends \Twig_Markup
 	{
 		if (is_callable(array($this->htmlObject, $name)))
 		{
-			call_user_func_array(array($this->htmlObject, $name), $arguments);
+			$return = call_user_func_array(array($this->htmlObject, $name), $arguments);
+
+			if (is_string($return))
+			{
+				return new \Twig_Markup($return, $this->charset);
+			}
 			
 			$this->updateContent();
 
