@@ -4,7 +4,7 @@ TwigElement is a [Twig](http://twig.sensiolabs.org/) extension to manipulate HTM
 
 ### Usage
 
-```php
+```jinja
 {# element(tag, content, attributes) #}
 
 {{ element('input') }}
