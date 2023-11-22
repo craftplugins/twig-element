@@ -1,10 +1,14 @@
+> [!IMPORTANT]
+>
+> This extension is no longer maintained.
+
 # TwigElement
 
 TwigElement is a [Twig](http://twig.sensiolabs.org/) extension to manipulate HTML as object abstractions.
 
 ### Usage
 
-```jinja
+```twig
 {# element(tag, content, attributes) #}
 
 {{ element('input') }}
